@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Quiz Game!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <div class="screen active" id="intro-screen">
+    <div class="intro-content">
+      <h1 class="intro-title">Car Quiz Time!</h1>
+      <p class="intro-subtitle">Start your engines…</p>
+
+      <div class="intro-road">
+        <div class="intro-car">🏎️</div>
+      </div>
+    </div>
+  </div>
+  <div class="screen" id="start-screen">
+    <div class="stats">
+      <div class="stat">
+        <span class="stat-label">Best Score:</span>
+        <span class="stat-value">
+          <span id="best-score">0</span>/<span id="max-score-start">5</span>
+        </span>
+      </div>
+      <div class="stat">
+      <span class="stat-label">Attempts</span>
+        <span class="stat-value" id="attempts">0</span>
+      </div>
+    </div>
+
+    <h1>Car Quiz Time!</h1>
+    <p>Time to test your car knowledge with these questions!</p>
+    <div class = "car-picker">
+      <h3>Pick your ride</h3>
+      <div class="car-options" id="car-options">
+        <button class="car-option" data-car="🚗">🚗</button>
+        <button class="car-option" data-car="🏎️">🏎️</button>
+        <button class="car-option" data-car="🚙">🚙</button>
+        <button class="car-option" data-car="🚕">🚕</button>
+      </div>
+      <p class="car-hint">
+        Selected:
+        <span class="selected-car-wrapper">
+          <span id="selected-car-label">🚗</span>
+        </span>
+      </p>
+    </div>
+    <button id="start-btn">Start Quiz</button>
+  </div>
+
+  <div class="screen" id="quiz-screen">
+    <div class="quiz-header">
+      <h2 id="question-text">question here</h2>
+      <div class="quiz-info">
+        <p>
+          question <span id="current-question">1</span>
+          of <span id="total-questions">5</span>
+        </p>
+        <p>Score: <span id="score">0</span></p>
+      </div>
+    </div>
+
+    <div id="answers-container" class="answers-container"></div>
+
+    <div class="progress-bar">
+      <div id="progress" class="progress">
+        <span id="car-icon" class="car-icon">🚗</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="screen" id="result-screen">
+    <h1>Quiz Results</h1>
+    <div class="results-info">
+      <p>
+        You scored <span id="final-score">0</span> out of <span id="max-score">5</span>
+      </p>
+      <div id="result-message">Good Job!</div>
+    </div>
+    <button id="restart-btn">Restart quiz?</button>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

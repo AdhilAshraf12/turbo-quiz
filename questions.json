@@ -1,0 +1,47 @@
+[
+  {
+    "question": "Which car manufacturer broke the world record for going 0-400kmph-0?",
+    "answers": [
+      { "text": "Bugatti", "correct": true },
+      { "text": "Audi", "correct": false },
+      { "text": "Pagani", "correct": false },
+      { "text": "Koenigsegg", "correct": false }
+    ]
+  },
+  {
+    "question": "Which car released their newest version called the C8?",
+    "answers": [
+      { "text": "Toyota", "correct": false },
+      { "text": "Mercedes-Benz", "correct": false },
+      { "text": "Chevrolet", "correct": true },
+      { "text": "Mazda", "correct": false }
+    ]
+  },
+  {
+    "question": "Which company is known for their luxury vehicles?",
+    "answers": [
+      { "text": "Fiat", "correct": false },
+      { "text": "Rolls-Royce", "correct": true },
+      { "text": "Honda", "correct": false },
+      { "text": "Nissan", "correct": false }
+    ]
+  },
+  {
+    "question": "Which car company made the iconic S2000?",
+    "answers": [
+      { "text": "Acura", "correct": false },
+      { "text": "McLaren", "correct": false },
+      { "text": "Honda", "correct": true },
+      { "text": "Infiniti", "correct": false }
+    ]
+  },
+  {
+    "question": "Which car has maintained its iconic design language for the longest time?",
+    "answers": [
+      { "text": "Toyota", "correct": false },
+      { "text": "Porsche", "correct": true },
+      { "text": "Audi", "correct": false },
+      { "text": "Koenigsegg", "correct": false }
+    ]
+  }
+]
